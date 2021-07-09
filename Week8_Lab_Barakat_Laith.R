@@ -7,7 +7,7 @@ boston.train <- Boston[index,]
 boston.test <- Boston[-index,]
 
 ## load credit card data
-credit.data <- read.csv("C:/Users/Laith/Documents/SpringSem20/Data Mining II/Lab Notes/8. Other topics/Advanced Tree/data/credit_default.csv", header=T)
+credit.data <- read.csv("https://github.com/barakalz/adv-data-mining-expl/blob/94f28355400bad551ceac4eb4880f5208183c5d9/credit_default.csv", header=T)
 ## convert categorical variables
 credit.data$SEX<- as.factor(credit.data$SEX)
 credit.data$EDUCATION<- as.factor(credit.data$EDUCATION)
